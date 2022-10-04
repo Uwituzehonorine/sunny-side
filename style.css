@@ -152,13 +152,24 @@ h2{
     background-color: white;
     display: flex;
     padding-top: 100px;
-    background-position: center;
+    /* background-position: center; */
     text-align: center;
+   
+    width: 100%;
 }
 .container1 p{
     display: flex;
     text-align: center;
     /* margin-left: 300px; */
+}
+.emily{
+    width: 30%;
+}
+.jennie{
+    width: 30%;
+}
+.thomas{
+    width: 30%;
 }
 .emily p{
     text-align: center;
@@ -181,14 +192,33 @@ h4{
 .emily img{
      border-radius:300px ;
 }
+/* .emily p{
+    margin-left: 20px;
+}
+.emily h4{
+    margin-left: 20px;
+} */
 .thomas img{
     border-radius:300px ;
-    margin-left: 300px;
+    margin-left: 100px;
+}
+.thomas p{
+    margin-left: 100px;
+}
+
+.thomas h4{
+    margin-left: 100px;
 }
 .jennie img{
     border-radius:50% ;
-    margin-left: 300px;
+    margin-left: 100px;
     
+}
+.jennie p{
+    margin-left:100px ;
+}
+.jennie h4{
+    margin-left: 100px;
 }
 .container12{
     display: flex;
